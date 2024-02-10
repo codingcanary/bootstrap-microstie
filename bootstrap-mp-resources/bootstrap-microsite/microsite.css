@@ -1,0 +1,114 @@
+div .container {
+    background-color: #88ad7e;
+}
+
+body {
+    margin: 0;
+}
+
+/* begin of navbar code */ 
+/* figure out how to make navbar links float right withouth switching order */
+#navbar {
+    width: 100%; 
+    overflow: hidden;
+    background-color: #88ad7e;
+    font-size: 14px;
+    padding-left: 24px;
+}
+
+#navbar a {
+    float: left;
+    padding: 18px 10px 18px 10px;
+    margin-left: 10px;
+    background-color: #88ad7e;
+    color: whitesmoke;
+    text-decoration: none; /*i did this to remove the underline from the links*/
+}
+
+#navbar a:visited {
+    color: whitesmoke;
+}
+
+#htmelle { /*justify-content: space-between;*/
+    float: right;
+    padding: 12px 44px 12px 14px;
+    margin: 0;
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+/*  this code is going to change, temporary for browser view purposes */
+.container {
+    width: 100%;
+    margin: 0;
+    background-color: #88ad7e;
+}
+
+/* end of navbar code */
+
+/* drop shadow hover code */
+
+#modalbtn {
+    padding: 10px 20px;
+    background-color: #88ad7e;
+    border-color: #88ad7e;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    
+}
+
+#modalbtn:hover {
+    background-color: #E3735E;
+    border-color: #E3735E;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* end drop shadow hover code */
+
+/* begin header code */
+
+.header {
+
+    display: inline-block;
+}
+
+.banner {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 240px;
+}
+
+h1 {
+    padding-left: 24px;
+    font-family: sans-serif;
+    font-size: 48px;
+    margin-left: 250px;
+}
+
+/* end header code */
+
+/* begin section1 code */
+
+.holder {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+.section1 {
+
+    padding: 50px;
+    width: 75%;
+    margin: 50px;
+    background-color: #d6e7d2;
+    border-radius: 24px;
+
+}
+
+p {
+    font-size: 18px;
+}
+
+/* end section1 code */
